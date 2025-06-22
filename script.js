@@ -16,7 +16,7 @@ connectButton.addEventListener('click', async () => {
             const connectedAccount = accounts[0]; // Get the first connected account
 
             // Display the connected account on the webpage
-            accountDisplay.innerHTML = Connected Account: ${connectedAccount};
+            accountDisplay.innerHTML = Connected 'Account': ${'connectedAccount'};
             console.log('Wallet connected:', connectedAccount); // Log to browser console
 
             // Optional: Listen for account changes
